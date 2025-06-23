@@ -1,5 +1,5 @@
 import { ec as EC } from 'elliptic'
-import KeyEncoder from './index'
+import KeyEncoder from './index.js'
 const keyEncoder = new KeyEncoder('secp256k1')
 
 const rawPrivateKey = '844055cca13efd78ce79a4c3a4c5aba5db0ebeb7ae9d56906c03d333c5668d5b',

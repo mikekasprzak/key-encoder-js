@@ -1,12 +1,12 @@
 {
   "compilerOptions": {
-      "target": "es6",
-      "module": "commonjs",
-      "moduleResolution": "node",
+      "target": "es2020",
+      "module": "NodeNext",
+      "moduleResolution": "NodeNext",
       "declaration": true,
       "noImplicitAny": true,
       "noImplicitThis": true,
-      "outDir": "lib/cjs",
+      "outDir": "lib/esm",
       "sourceMap": true,
       "sourceRoot": "."
   },
