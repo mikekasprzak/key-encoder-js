@@ -1,5 +1,5 @@
 {
-  "name": "key-encoder",
+  "name": "@mikekasprzak/key-encoder",
   "version": "2.1.1",
   "description": "Library for encoding ECDSA private keys to PEM, DER and raw hex formats",
   "main": "./lib/cjs/index.js",
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/blockstack/key-encoder-js.git"
+    "url": "https://github.com/mikekasprzak/key-encoder-js"
   },
   "keywords": [
     "elliptic",
@@ -56,6 +56,9 @@
     "email": "hello@onename.com",
     "url": "https://onename.com"
   },
+  "contributors": [
+    "Mike Kasprzak (https://github.com/mikekasprzak)"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/blockstack/key-encoder-js/issues"
