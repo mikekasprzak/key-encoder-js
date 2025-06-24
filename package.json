@@ -1,15 +1,17 @@
 {
   "name": "@mikekasprzak/key-encoder",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "Library for encoding ECDSA private keys to PEM, DER and raw hex formats",
   "main": "./lib/cjs/index.js",
   "types": "./lib/cjs/index.d.ts",
   "type": "module",
   "exports": {
+    "types": "./lib/types/index.d.ts",
     "require": "./lib/cjs/index.js",
     "import": "./lib/esm/index.js"
   },
   "scripts": {
+    "precompile": "./makelib.sh",
     "compile": "tsc -b tsconfig.json tsconfig.esm.json",
     "test": "nyc node ./src/test.ts",
     "codecovUpload": "codecov",
